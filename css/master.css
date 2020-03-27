@@ -21,6 +21,10 @@ header {
 }
 
 .upper-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background: var(--accent);
 	padding: 0.1em 0;
 	text-align: center;
@@ -66,6 +70,7 @@ aside li {
 
 .upper-header span {
 	color: var(--accent);
+	background: var(--pry-back);
 }
 
 .hide-small {
@@ -681,6 +686,7 @@ address {
 
 	.upper-header {
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		padding: 0.5em 3em;
 	}
