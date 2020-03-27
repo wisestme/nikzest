@@ -101,6 +101,10 @@ a {
 	text-decoration: none;
 }
 
+.navigation a {
+	color: var(--accent);
+}
+
 #quick-links {
 	width: 0;
 	height: 100vh;
